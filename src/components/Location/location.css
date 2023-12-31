@@ -1,0 +1,112 @@
+.locationContainer {
+  width: 1024px;
+  margin: auto;
+}
+
+.locationTitle {
+  font-size: 2em;
+  color: rgb(108, 116, 158);
+  font-weight: 350;
+  /* margin-top: 100px; */
+}
+
+.welcomeImage {
+  float: right;
+  width: 450px;
+  height: 300px;
+}
+
+.locationButton {
+  background-color: rgb(108, 116, 158);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 9px 24px;
+  font-size: 1.2em;
+  margin: 40px 15px 50px 0;
+  display: inline-block;
+  text-decoration: none;
+  
+}
+
+.locationButton:hover {
+  color: black;
+  background-color: rgb(219, 215, 215);
+  transition: .8s;
+}
+
+.googleMaps {
+  max-width: 1000PX;
+  border: black solid 1px;
+  margin-bottom: 50px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.lastDiv {
+  margin-top: 20px;
+}
+
+/* ########## Media ########## */
+
+@media (max-width: 1024px) {
+  .locationContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .locationContainer {
+    width: 90vmin;
+  }
+}
+
+@media (max-width: 770px) {
+  .locationContainer {
+    width: 90vmin;
+  }
+  .welcomeImage {
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin:5% auto;
+    width: 80%;
+    height: 80%;
+  }
+  .googleMaps {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .locationContainer {
+    width: 90vmin;
+    padding: 15px;
+  }
+
+  .googleMaps {
+    width: 100%;
+    margin: auto;
+  }
+
+  .welcomeImage {
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin:5% auto;
+    width: 80%;
+    height: 80%;
+  }
+
+  .locationButton {
+    margin: 40px 60px 10px 60px;
+  }
+  
+  .locationIntakeQ {
+    display: flex;
+    justify-content: center;
+  }
+
+}

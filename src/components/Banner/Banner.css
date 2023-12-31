@@ -1,0 +1,102 @@
+.bannerBox {
+  background-color: rgb(207, 210, 220);
+  max-width: 1400px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.topBannerInfo {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px inset,
+    inset rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: rgb(249, 249, 249);
+  padding: 20px 0;
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.closedBanner {
+  display: none;
+}
+
+.bannerOpen {
+  display: inline-block;
+  /* margin-left: 5px; */
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+.bannerTitle {
+  background-color: rgba(108,116,158,0.7);
+  width: 1400px;
+  padding: 10px; 
+  /* border-bottom: black solid 1.5px; */
+  border-width: 90%;
+}
+
+/* button {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* ################# */
+
+/* Package banner */
+.bannerBody {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.packageSale {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ################# */
+
+/* Gift Card banner*/
+.giftCardButton {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.saleButton {
+  background-color: rgb(108, 116, 158);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: beige;
+}
+
+.saleButton:hover {
+  transition: 0.8s;
+  cursor: pointer;
+  background-color: rgb(221, 212, 215);
+  color: rgb(108, 116, 158);
+}
+
+/* ################# */
+
+.makeSpace {
+  padding-bottom: 200px;
+  transition: 0.5s;
+}
+
+.noSpace {
+  padding-bottom: 0px;
+  transition: 0.5s;
+}
+
+/* ################# */
+
+@media (max-width: 1400px) {
+  .bannerTitle {
+    width: 100%;
+  }
+  .bannerBox {
+    width: 90%;
+  }
+}

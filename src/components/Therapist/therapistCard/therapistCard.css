@@ -1,0 +1,124 @@
+.therapistSection {
+  max-width: 1024px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: rgb(221, 212, 215);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px , rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 400px;
+}
+
+.therapistInfo {
+  /* margin-bottom: 0px; */
+}
+
+/* Therapist Name section */
+.therapistInfo > div:first-child {
+  text-align: center;
+  font-size: 2.7em;
+}
+
+.therapistCardLicense {
+  text-align: center;
+}
+
+.therapistImg {
+  width: 400px;
+}
+
+.TherapistBio {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px inset,inset rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-right: 10px;
+  padding: 13px;
+  background-color: rgb(249, 249, 249);
+  max-height: 250px;
+  overflow: auto;
+}
+
+.therapistServiceSection {
+  text-align: center;
+  height: 100%;
+  min-width: 150px;
+}
+
+/* Services Title section */
+.therapistServiceSection section:first-child {
+  margin-top: 10%;
+  font-size: 2em;
+  margin-bottom: 27px;
+}
+
+/* Services Service section */
+.therapistServiceSection section:last-child {
+  margin-right: 20px;
+  padding: 20px 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px inset,inset rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: rgb(249, 249, 249);
+}
+
+/* Services Each Service section */
+.therapistServiceSection section:last-child > div {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bioSpace {
+  margin-bottom: 5px;
+}
+
+.therapistName {
+  /* border: red solid 5px; */
+  /* color: aqua; */
+}
+
+@media(max-width: 1250px) {
+  .therapistInfo > div:first-child {
+    font-size: 2.5em;
+}
+}
+
+@media(max-width: 1150px) {
+  .TherapistBio {
+    margin-left: 10px;
+    max-height: 200px;
+  }
+
+  .therapistSection {
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+
+  .therapistImgBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .therapistServiceSection {
+    margin-left: 10px;
+  }
+
+  .therapistServiceSection section:first-child {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .services {
+    display: inline;
+    margin-right: 30px;
+  }
+
+  .therapistServiceSection section:last-child {
+    margin-right: 10px;
+  }
+}
+
+@media(max-width: 600px) {
+  .therapistInfo > div:first-child {
+    /* text-align: center; */
+    font-size: 2em;
+}
+}
+@media(max-width: 520px) {
+  .therapistImg {
+    max-width: 90%;
+  }
+}

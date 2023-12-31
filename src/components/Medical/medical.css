@@ -1,0 +1,42 @@
+.medicalSection {
+  margin: auto;
+  width: 1024px;
+  padding: 20px;
+}
+
+.medicalTitle {
+  color: rgb(108, 116, 158);
+  border-bottom: 2px solid rgb(221, 212, 215);
+  width: fit-content;
+  margin: 20px auto;
+}
+
+@media(max-width: 1023px) {
+  .medicalSection {
+    width:fit-content
+  }
+}
+
+@media(max-width: 425px) {
+  .medicalSection {
+    width:fit-content;
+    font-size: 1.5em;
+  }
+  .medicalTitle {
+    font-size: 2em; 
+  }
+}
+
+@media(max-width: 1023px) {
+  .medicalSection {
+    width:fit-content
+  }
+}
+
+
+/*
+
+At thie time, ARC massage and family wellness center is unable to bill insaucne clients. We can howcver provide you with a superbill at your request. Prior to getting a superbill. We will needa  referral with diagnotistic codes on file. We strongly encourage call clients to cntact thsier insurance comapny prior ro service as we cannot guarentee reimbursement
+
+
+*/

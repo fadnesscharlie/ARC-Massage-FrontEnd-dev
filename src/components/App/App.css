@@ -1,0 +1,17 @@
+.app {
+  background-color: rgb(249, 249, 249);
+
+  font-size: 1.2em;
+  width: 100vw;
+  margin: auto;
+  margin-top: -5px;
+  /* margin-right: -15px; */
+}
+
+@media (max-width:375px) {
+  .app {
+    width: 100vw;
+    margin: auto;
+    font-size: 1em;
+  }
+}

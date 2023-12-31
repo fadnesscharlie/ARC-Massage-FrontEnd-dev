@@ -1,0 +1,13 @@
+.familyPhoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  margin-bottom: 30px;
+}
+
+@media(max-width: 1400px) {
+  .familyPhoto {
+  width: 100%
+  }
+}

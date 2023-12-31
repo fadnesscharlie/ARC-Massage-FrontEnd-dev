@@ -1,0 +1,132 @@
+.cardImage {
+  height: 170px;
+  width: 170px;
+  margin: 0px 86px;
+  border-radius: 50%;
+  margin-top: 10px;
+  position: relative;
+  top: 130px;
+  z-index: 1;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+  padding-top: 140px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 400px;
+}
+
+.cardEsthetics {
+  /* Padding creates space for image */
+  padding-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 400px;
+}
+
+.priceButton {
+  border: rgb(221, 212, 215) solid 2px;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 38%;
+  color: rgb(110, 116, 158);
+  text-decoration: none;
+}
+
+.serviceContainer {
+  /* width: 1524px; */
+  margin: auto;
+}
+
+.servicesTitle {
+  color: rgb(108, 116, 159);
+  text-align: center;
+}
+
+.servicesInfo {
+  text-align: center;
+}
+
+.bookAppContainer {
+  margin-top: 30px;
+  padding: 20px 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.sessionWidthGrid {
+  /* width: 400px; */
+}
+
+.gridContainer {
+  /* margin: auto; */
+  /* width: auto; */
+  justify-content: center;
+  width: 1000px;
+}
+
+.tab {
+  color: rgb(108, 116, 159);
+  width: 200px;
+}
+
+.tab:hover {
+  background-color: rgb(40, 54, 107);
+  color: white;
+  transition: .8s;
+}
+
+
+.bannerHeader {
+  /* border: red solid 5px; */
+}
+
+.dropdownButton {
+  background-color: rgba(159, 161, 161, 0.3);
+  /* background-color: red; */
+}
+
+.serviceDescriptions {
+  max-width: 1024px;
+  margin: 30px auto;
+  background-color: rgb(40, 54, 107, 0.2);
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+
+@media (max-width:1200px) {
+  .serviceContainer{
+    width: 100vw;
+  }
+  .sessionWidthGrid {
+    width:400px;
+    text-align: center;
+  }
+}
+
+@media (max-width:900px) {
+  .sessionWidthGrid {
+    width: 100%;
+    float: right;
+  }
+  .card {
+    position: relative;
+    /* left: 170px */
+    width: auto;
+    margin: auto;
+  }
+  .serviceContainer {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .serviceContainer {
+    width: 100vw;
+  }
+  .gridContainer {
+    /* width: 400px; */
+  }
+}

@@ -1,0 +1,207 @@
+.logo {
+  /* width: 120px; */
+  margin: 5px;
+}
+
+header {
+  width: 100vw;
+  margin-top: 5px;
+  /* box-shadow: 0px 5px 5px rgb(204, 204, 204); */
+  /* box-shadow: 10px 5px 5px red; */
+  /* opacity: 0.5; */
+}
+
+.h1 {
+  display: inline-block;
+  position: absolute;
+  top: 110;
+}
+
+.titleTop {
+  margin-top: 5px;
+  color: rgb(40, 54, 107);
+  font-size: 1.5em;
+}
+
+.titleBot {
+  color: rgb(173, 145, 153);
+  font-size: .75em;
+}
+
+/* ##### Nav ##### */
+
+.navHeader {
+  float: right;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+
+/* ##### Nav ##### */
+
+.navContainer > span:first-child {
+  margin-left: 15px;
+}
+
+.navContainer > span:last-child {
+  margin-right: 15px;
+}
+
+.linkComponent {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  padding: 15px 30px;
+}
+
+.linkComponentDropdown {
+  background-color: rgba(222,223,223, 0.3);
+  color: rgb(241, 241, 241);
+}
+
+.linkComponent:hover {
+  background-color: rgb(174, 174, 175);
+  color: rgb(108, 116, 158);
+  transition: .8s;
+  border-radius: 10px;
+}
+
+.navContainer {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 15px 0px;
+  text-shadow: 1px 1px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: red; */
+  background-color: rgba(159, 161, 161, 0.3);
+}
+
+/* ##### Media Nav ##### */
+
+.navMobileContainer {
+  display: none;
+  padding: 15px 0px;
+  /* text-shadow: 1px 1px #000000; */
+  /* background-color: rgb(221, 212, 215); */
+  background-color: rgb(108, 116, 158);
+
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 150vh;
+  width: 100%;
+  z-index: 3;
+}
+
+.navLinkComponentContainer {
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.navLinkComponentContainer:first-child {
+  margin-top: 45px;
+}
+
+.navLinkComponent {
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  padding: 15px 30px;
+
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: rgb(221, 212, 215);
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.navContainer {
+  display: inline-block;
+  padding: 15px 0px;
+  background-color: rgba(159, 161, 161, 0.3);
+  text-shadow: 1px 1px #000000;
+}
+
+.hamburger {
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+  top: 20px;
+  right:20px;
+  padding: 10px;
+  z-index: 20;
+  background-color: rgb(249,249,249);
+}
+
+.hamburger > div {
+  padding: 3px;
+  margin-bottom: 5px;
+  width: 30px;
+  border-radius: 500px;
+}
+
+.openHamburger > div{
+  background-color: rgb(241, 241, 241);
+}
+
+.closedHamburger > div {
+  background-color: rgb(221, 212, 215);
+}
+
+.closed {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1525px) {
+  .navContainer {
+    display: none;
+  }
+
+  .bookNow {
+    /* display: none; */
+    margin-right: 50px;
+  }
+
+  .navMobileContainer {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .bookNow {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    width: 80%;
+  }
+}
+
+/* ##### Book App Link ##### */
+.bookAppLink {
+  margin: 20px;
+  border-radius: 10px;
+}
