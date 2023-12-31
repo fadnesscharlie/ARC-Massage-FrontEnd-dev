@@ -8,4 +8,4 @@ export const db = [
     services: ['Deep Tissue', 'Cupping', 'Prenatal', 'Postnatal' ,'Breasts/Chest'],
     licenses: ['MA60500027,','Breast/Chest', ]
   }
-]
+]   
